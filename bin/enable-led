@@ -1,0 +1,12 @@
+#!/bin/sh
+# Sysfs permissions reset on reboot or when thinkpad_acpi is reloaded.
+set -eu
+if [ "$(id -u)" -eq 0 ]; then
+    echo 'Run this as your regular desktop user, not through sudo.' >&2
+    exit 1
+fi
+LED=/sys/class/leds/tpacpi::lid_logo_dot
+test -e "$LED/brightness" || { echo 'ThinkPad lid LED not found.' >&2; exit 1; }
+# Only these two LED attributes change ownership; no application runs as root.
+sudo chown -- "$(id -u)" "$LED/brightness" "$LED/trigger"
+echo 'Lid LED enabled for this user until reboot. No other LED permissions changed.'

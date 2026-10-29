@@ -1,0 +1,18 @@
+{
+  "Give your ThinkPad a heartbeat.": "Ge din ThinkPad en puls.",
+  "Preview · LED untouched": "Förhandsvisning · LED orörd",
+  "ThinkPad lid LED": "ThinkPads locklampa",
+  "Playback level": "Ljudnivå",
+  "Sensitivity": "Känslighet",
+  "Uses system playback, never your microphone. Stop and start after changing audio outputs.": "Lyssnar på uppspelat ljud, aldrig mikrofonen. Stoppa och starta efter byte av ljudutgång.",
+  "Stop": "Stoppa",
+  "Start listening": "Börja lyssna",
+  "Space · start / stop     ? · shortcuts     Q · quit": "Space · start / stopp     ? · genvägar     Q · avsluta",
+  "Keyboard shortcuts\n\nSpace — Start / stop\n? — Show / hide shortcuts\nQ — Quit\nEsc — Close this help": "Tangentbordsgenvägar\n\nSpace — Start / stopp\n? — Visa / dölj genvägar\nQ — Avsluta\nEsc — Stäng hjälpen",
+  "Cannot write %1: %2. Run bin/enable-led from the project directory.": "Kan inte skriva till %1: %2. Kör bin/enable-led från projektmappen.",
+  "ThinkPad lid LED is missing or unreadable.": "ThinkPads locklampa saknas eller kan inte läsas.",
+  "Cannot start parec: %1": "Kan inte starta parec: %1",
+  "Playback capture stopped: %1": "Ljudavläsningen stoppades: %1",
+  "No playback data received. Check your PipeWire/PulseAudio server, then start again.": "Inget ljuddata togs emot. Kontrollera PipeWire/PulseAudio och starta igen.",
+  "parec is missing. Install libpulse (or pulseaudio-utils on Debian/Ubuntu).": "parec saknas. Installera libpulse (eller pulseaudio-utils på Debian/Ubuntu)."
+}
