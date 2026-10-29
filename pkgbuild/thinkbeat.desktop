@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=ThinkBeat
+Name[sv]=ThinkBeat
+Name[da]=ThinkBeat
+Comment=Pulse the ThinkPad lid LED to playback audio
+Comment[sv]=Låt ThinkPads locklampa pulsera till uppspelat ljud
+Comment[da]=Lad ThinkPad-lågets LED pulsere til afspillet lyd
+Exec=thinkbeat
+Icon=thinkbeat
+Terminal=false
+Categories=AudioVideo;Utility;
+StartupWMClass=thinkbeat
